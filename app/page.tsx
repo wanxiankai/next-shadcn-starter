@@ -17,6 +17,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
+import { ThemeToggle } from '@/components/theme-toggle'
 
 
 export default function Home() {
@@ -26,6 +27,9 @@ export default function Home() {
         <h1 className="text-3xl font-bold">
           Welcome to the Next.js + TS With Tailwind CSS Starter
         </h1>
+
+        <ThemeToggle />
+
         <Card className="w-[350px] mt-10">
           <CardHeader>
             <CardTitle>Create project</CardTitle>
